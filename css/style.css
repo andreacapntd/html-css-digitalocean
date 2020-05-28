@@ -1,3 +1,6 @@
+body { padding-top: 50px; }
+
+
 /* navbar */
 #ms_logo-nav .navbar-default {
   background-color: #fff;
@@ -27,6 +30,23 @@
 
 #ms_logo-nav .navbar-default .navbar-toggle .icon-bar {
     background-color: #006aff;
+}
+
+/* jumbotron */
+#ms_jumbo {
+  height: 540px;
+  background-image: url(../img/jumbo.svg);
+}
+
+#ms_jumbo h1 {
+  margin-top: 80px;
+  font-size: 62px;
+  color: #fff;
+}
+
+#ms_jumbo p {
+  font-size: 20px;
+  color: #92afde;
 }
 
 /* smarphone version */
