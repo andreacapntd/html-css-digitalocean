@@ -1,4 +1,62 @@
 /* navbar */
+#ms_logo-nav .navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+}
+
 #ms_logo-nav .img-responsive {
   height: 20px;
+}
+
+#ms_logo-nav .btn-default {
+  margin-top: 10px;
+  background-color: transparent;
+  border-color: #006aff;
+  color: #006aff;
+}
+
+#ms_logo-nav .navbar-nav>li>a {
+  line-height: 25px;
+  color: hsl(221,93%,16%);
+  font-weight: bold;
+}
+
+#ms_logo-nav .navbar-brand {
+  margin-right: 150px;
+}
+
+#ms_logo-nav .navbar-default .navbar-toggle .icon-bar {
+    background-color: #006aff;
+}
+
+/* smarphone version */
+@media all and (max-width: 767px) {
+
+  /* navbar */
+  #ms_logo-nav .navbar-toggle {
+  border: none;
+  border-color: none;
+  }
+  #ms_logo-nav .navbar-brand {
+    margin-right: 0;
+  }
+}
+
+/* tablet version */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  /* navbar */
+  #ms_logo-nav .navbar-header {
+    float: none;
+  }
+
+  #ms_logo-nav .navbar-toggle {
+    display: block;
+    border: none;
+    border-color: none;
+  }
+
+  #ms_logo-nav .navbar-nav {
+    display: none;
+  }
 }
