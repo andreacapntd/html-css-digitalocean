@@ -49,6 +49,33 @@ body { padding-top: 50px; }
   color: #92afde;
 }
 
+#ms_jumbo .ms_form-jumbo {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 40px;
+}
+
+#ms_jumbo .ms_form-jumbo h3 {
+  font-size: 30px;
+}
+
+#ms_jumbo .ms_form-jumbo h4 {
+  font-size: 30px;
+  color: #006aff;
+}
+
+#ms_jumbo .ms_form-jumbo p {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+#ms_jumbo .ms_form-jumbo p a {
+  text-decoration: underline;
+}
+
+
 /* smarphone version */
 @media all and (max-width: 767px) {
 
