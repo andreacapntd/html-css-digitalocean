@@ -75,6 +75,25 @@ body { padding-top: 50px; }
   text-decoration: underline;
 }
 
+#ms_jumbo .ms_form-jumbo button img {
+  height: 20px;
+}
+
+#ms_google {
+  position: relative;
+  margin-top: 15px;
+}
+
+#ms_google button::before {
+  background: url(https://ir.ebaystatic.com/rs/v/jaefjx4ozi0cbpdwodr3clmud2h.png) 0px 6px no-repeat;
+  background-size: 90%;
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 9px;
+  width: 23px;
+  height: 90%;
+}
 
 /* smarphone version */
 @media all and (max-width: 767px) {
@@ -86,6 +105,20 @@ body { padding-top: 50px; }
   }
   #ms_logo-nav .navbar-brand {
     margin-right: 0;
+  }
+
+  /* jumbotron */
+  #ms_jumbo {
+    height: auto;
+  }
+
+  #ms_jumbo .ms_form-jumbo {
+    margin: 30px;
+  }
+
+
+  #ms_jumbo  p {
+    font-size: 26px;
   }
 }
 
@@ -106,4 +139,18 @@ body { padding-top: 50px; }
   #ms_logo-nav .navbar-nav {
     display: none;
   }
+
+  /* jumbotron */
+  #ms_jumbo {
+    height: auto;
+  }
+
+  #ms_jumbo h1 {
+    font-size: 53px;
+  }
+
+  #ms_jumbo .ms_form-jumbo {
+    margin: 30px;
+  }
+
 }
