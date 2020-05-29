@@ -95,6 +95,24 @@ body { padding-top: 50px; }
   height: 90%;
 }
 
+/* innovative  */
+#innovative {
+  background-color: #f3f5f9;
+}
+
+#innovative h6 {
+  font-size: 16px;
+  color: #5b6987;
+  margin: 30px 0;
+}
+
+#innovative ._view-customer {
+  margin: 20px 0;
+}
+#innovative ._view-customer a {
+  color: #006aff;
+}
+
 /* smarphone version */
 @media all and (max-width: 767px) {
 
