@@ -137,7 +137,9 @@ body { padding-top: 50px; }
   color: #5b6987;
   font-size: 18px;
 }
-
+#deploy ._deploy-card {
+  margin-top: 60px;
+}
 #deploy ._deploy-card img {
   display: block;
 }
