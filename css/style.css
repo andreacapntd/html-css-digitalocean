@@ -234,6 +234,11 @@ body { padding-top: 50px; }
     display: none;
   }
 
+  #designed .ms_carousel img {
+    width: 70%;
+    height: auto;
+  }
+
 }
 
 /* tablet version */
