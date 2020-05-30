@@ -127,30 +127,81 @@ body { padding-top: 50px; }
   font-size: 23px;
   color: #5b6987;
 }
+
 #deploy .list-group {
   border-left: 1px solid rgba(3, 27, 78, 0.6);
   margin-top: 60px;
   margin-left: 85px;
 }
+
 #deploy .list-group button {
   border: none;
   color: #5b6987;
   font-size: 18px;
 }
+
 #deploy ._deploy-card {
   margin-top: 60px;
 }
+
 #deploy ._deploy-card img {
   display: block;
 }
+
 #deploy ._deploy-card h5 {
   text-align: left;
-  font-size: 24px;
+  font-size: 18px;
   color: #031b4e;
 }
 #deploy ._deploy-card p {
-  font-size: 18px;
+  font-size: 14px;
   text-align: left;
+}
+
+/* designed */
+#designed {
+  background-color: #f3f5f9;
+  margin-top: 30px;
+}
+
+#designed h3 {
+  font-size: 36px;
+  color: #031b4e;
+  margin-top: 45px;
+}
+
+#designed p {
+  font-size: 23px;
+  color: #5b6987;
+  margin-top: 20px;
+}
+#designed .ms_carousel {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+#designed .ms_carousel img {
+  height: 400px;
+}
+
+#designed .ms_carousel .glyphicon-chevron-left {
+  font-size: 25px;
+  color: #c9c6c5;
+  margin-right: 15px;
+}
+
+#designed .ms_carousel .glyphicon-chevron-right {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+#designed span:last-of-type {
+  color: #031b4e;
+}
+
+#designed .ms_option {
+  margin-top: 10px;
+  color: #337ab7;
 }
 
 /* smarphone version */
@@ -174,10 +225,15 @@ body { padding-top: 50px; }
     margin: 30px;
   }
 
-
   #ms_jumbo  p {
     font-size: 26px;
   }
+
+  /* designed */
+  #designed .ms_carousel .glyphicon-chevron-left, #designed .ms_carousel .glyphicon-chevron-right {
+    display: none;
+  }
+
 }
 
 /* tablet version */
