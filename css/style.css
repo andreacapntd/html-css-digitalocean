@@ -204,6 +204,27 @@ body { padding-top: 50px; }
   color: #337ab7;
 }
 
+/* features */
+#_features h3 {
+  font-size: 36px;
+  color: #031b4e;
+  margin-top: 46px;
+}
+
+#_features img {
+  margin-top: 30px;
+}
+
+#_features h5 {
+  font-size: 18px;
+  color: #031b4e;
+}
+
+#_features p {
+  font-size: 16px;
+  color: #5b6987;
+}
+
 /* smarphone version */
 @media all and (max-width: 767px) {
 
