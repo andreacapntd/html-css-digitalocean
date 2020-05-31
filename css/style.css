@@ -228,6 +228,7 @@ body { padding-top: 50px; }
 /* service */
 #_service {
   background-color: #031b4e;
+  margin-top: 40px;
 }
 
 #_service h3 {
@@ -300,6 +301,65 @@ body { padding-top: 50px; }
   color: #337ab7;
 }
 
+/* started */
+#_started {
+  background-color: #031b4e;
+}
+
+#_started h3 {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+#_started .btn-default {
+  color: #006aff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* credits */
+#_credits {
+  background-color: hsl(220,95%,8%);
+}
+
+#_credits img {
+  margin-top: 46px;
+}
+
+#_credits p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: hsla(0,0%,100%,0.5);
+}
+
+#_credits h6 {
+  color: #5b6987;
+  margin-top: 0
+}
+
+#_credits ._social-media a {
+  font-size: 20px;
+  margin-right: 10px;
+  color: hsla(0,0%,100%,0.5);
+}
+
+#_credits .list-group {
+  list-style-type: none;
+}
+
+#_credits h5 {
+  color: #fff;
+  margin-top: 65px;
+}
+
+#_credits .list-group li {
+  margin-bottom: 10px;
+}
+
+#_credits .list-group li a {
+  color: hsla(0,0%,100%,0.5);  
+}
 
 
 /* smarphone version */
