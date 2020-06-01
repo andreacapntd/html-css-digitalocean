@@ -5,6 +5,7 @@ body { padding-top: 50px; }
 #ms_logo-nav .navbar-default {
   background-color: #fff;
   border-color: transparent;
+  box-shadow: rgba(3,27,78,0.1) 0px 2px 4px;
 }
 
 #ms_logo-nav .img-responsive {
@@ -154,7 +155,7 @@ body { padding-top: 50px; }
   color: #031b4e;
 }
 #deploy ._deploy-card p {
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -358,7 +359,7 @@ body { padding-top: 50px; }
 }
 
 #_credits .list-group li a {
-  color: hsla(0,0%,100%,0.5);  
+  color: hsla(0,0%,100%,0.5);
 }
 
 
